@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    background-color: black;
+    border-radius: 30px;
+    line-height: 1.4;
+}
+
+@font-face {
+    font-family: FugazOne-Regular;
+    src: url(../Fonts/FugazOne-Regular.ttf);
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    font-size: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+li > img {
+    width: 100%;
+    height: 100%;
+}
+
+#caixa1 {
+    margin-top: 10px;
+    width: 95%;
+    max-width: 1850px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: rgb(95, 48, 28);
+    align-items: center;
+}
+
+#centro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#tituloP {
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: FugazOne-Regular;
+}
+
+.caixa {
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(135, 69, 40);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid rgb(31, 31, 31);
+    transition: transform 0.3s ease;
+    width: 550px;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.caixa:hover {
+    transform: translateY(-5px);
+}
+
+.caixa2 {
+    margin-top: 300px;
+    display: flex;
+    background-color: rgb(135, 69, 40);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid rgb(31, 31, 31);
+    transition: transform 0.3s ease;
+    width: 550px;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.caixa2:hover {
+    transform: translateY(-5px);
+}
+
+.caixa3 {
+    margin-top: 300px;
+    display: flex;
+    background-color: rgb(135, 69, 40);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid rgb(31, 31, 31);
+    transition: transform 0.3s ease;
+    width: 550px;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.caixa3:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 1200px) {
+    body {
+    background: black;
+    border-radius: 30px;
+}
+
+@font-face {
+    font-family: FugazOne;
+    src: url(../Fonts/FugazOne-Regular.ttf);
+}
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    font-size: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+li > img {
+    width: 100%;
+    height: 100%;
+}
+
+#caixa1 {
+    margin: 10px auto 0;
+    width: 95%;
+    max-width: 1850px;
+    height: 100px;
+    border-radius: 60px;
+    background: rgb(95, 48, 28);
+}
+
+#centro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#tituloP {
+    margin-top: 10px;
+    font: 45px FugazOne;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.caixa, .caixa2, .caixa3 {
+    margin-top: 40px;
+    width: 550px;
+    height: 300px;
+    background: rgb(135, 69, 40);
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa:hover, .caixa2:hover, .caixa3:hover {
+    transform: translateY(-5px);
+}
+
+.caixa2 {
+    margin-top: 100px;
+}
+
+.caixa3 {
+    margin-top: 100px;
+}
+}
+
+@media (max-width: 900px) {
+body { 
+    background: #000; 
+    border-radius: 30px; 
+}
+
+@font-face { 
+    font-family: FugazOne; 
+    src: url(../Fonts/FugazOne-Regular.ttf);
+}
+
+ol { 
+    display: flex; 
+    justify-content: space-evenly; 
+    list-style: none; 
+}
+
+li { 
+    font-size: 30px; 
+    color: antiquewhite; 
+    text-align: center; 
+}
+li > img { 
+    width: 270px; 
+    height: 150px; 
+}
+
+#caixa1 { 
+  margin: 10px auto 0; 
+  width: 95%; 
+  max-width: 1850px; 
+  height: 100px; 
+  border-radius: 60px; 
+  background: rgb(95, 48, 28); 
+}
+
+#centro { 
+    display: flex; 
+    justify-content: center; 
+}
+
+#tituloP { 
+  margin-top: 10px; 
+  font: 38px FugazOne; 
+  color: antiquewhite; 
+  text-transform: uppercase; 
+  text-align: center; 
+}
+
+.caixa, .caixa2, .caixa3 { 
+  width: 270px; 
+  height: 150px;  
+  background: rgb(135, 69, 40); 
+  border: 2px solid #1f1f1f; 
+  border-radius: 20px 20px 0 0; 
+  transition: transform 0.3s ease; 
+  display: flex; 
+  justify-content: space-evenly; 
+}
+
+.caixa:hover, .caixa2:hover, .caixa3:hover { 
+    transform: translateY(-5px); 
+}
+
+.caixa2, .caixa3 { 
+    margin-top: 50px; 
+}
+}
+
+@media (max-width: 750px) {
+    body { 
+        background: #000; 
+        border-radius: 30px; }
+@font-face { 
+    font-family: FugazOne; 
+    src: url(../Fonts/FugazOne-Regular.ttf); }
+
+ol { 
+    display: flex; 
+    justify-content: space-evenly; 
+    list-style: none;
+}
+li { 
+    font: 15px FugazOne; 
+    color: antiquewhite; 
+    text-align: center; }
+li > img { 
+    width: 100%; 
+    height: auto; }
+
+#caixa1 { 
+  margin: 10px auto; 
+  width: 95%; height: 100px; 
+  background: #5f301c; 
+  border-radius: 60px; 
+}
+
+#tituloP { 
+  font: 30px FugazOne; 
+  color: antiquewhite; 
+  text-transform: uppercase; 
+  margin: 10px 0; 
+  text-align: center; 
+}
+
+.caixa, .caixa2, .caixa3 { 
+  width: 100%; height: 100%; 
+  background: #874528; 
+  border: 2px solid #1f1f1f; 
+  border-radius: 20px 20px 0 0; 
+  transition: 0.3s ease; 
+  display: flex; justify-content: space-evenly; 
+}
+.caixa:hover { 
+    transform: translateY(-5px); 
+}
+.caixa2 { 
+    margin-top: 50px; 
+}
+}
+
+@media (max-width: 400px) {
+    body { background: #000; }
+@font-face { font-family: FugazOne; src: url(../Fonts/FugazOne-Regular.ttf); }
+
+ol { 
+    display: flex; 
+    justify-content: space-evenly; 
+    list-style: none; }
+li { 
+    font: 16px FugazOne; 
+    color: #faebd7; 
+    text-align: center; 
+}
+li > img { 
+    max-width: 100%; 
+}
+
+#caixa1 { 
+  margin: 10px auto; 
+  width: 95%; height: 80px; 
+  background: #5f301c; 
+  border-radius: 60px; 
+}
+
+#tituloP { 
+  font: 20px FugazOne; 
+  color: #faebd7; 
+  text-transform: uppercase; 
+  margin: 10px 0; 
+  text-align: center; 
+}
+
+.caixa, .caixa2, .caixa3 { 
+  width: 450px; height: 150px; 
+  background: #874528; 
+  border: 2px solid #1f1f1f; 
+  border-radius: 20px 20px 0 0; 
+  transition: 0.2s; 
+  display: flex; justify-content: space-evenly; 
+}
+.caixa:hover { 
+    transform: translateY(-3px); 
+}
+.caixa2, .caixa3 { 
+    margin-top: 15px; 
+}
+}

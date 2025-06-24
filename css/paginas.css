@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+
+@font-face {
+    font-family: FugazOne-Regular;
+    src: url(../Fonts/FugazOne-Regular.ttf);
+}
+
+body{
+    height: 1400px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+#tituloP{
+    text-transform: uppercase;
+    color: antiquewhite;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: FugazOne-Regular;
+}
+
+#centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem{
+    margin-top: 30px;
+    width: 32%;
+    height: 32%;
+    border-radius: 45px;
+}
+
+#tituloE{
+    color: antiquewhite;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid rgb(135, 69, 40);
+}
+
+ul{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.lista{
+    margin-left: 25px;
+    font-size: 30px; 
+}
+
+#volta{
+    font-size: 35px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+video{
+    border: 2px solid rgb(135, 69, 40);
+    width: 800px;
+    height: 400px;
+    margin-left: 550px;
+    margin-top: 25px;
+}
+
+#cxPrincipal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#caixa1{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 8px double rgb(74, 38, 22);
+    width: 1700px;
+    height: 420px;
+    background-color: rgb(135, 69, 40);
+}
+
+@media (max-width: 1200px) {
+    #tituloP { font-size: 50px; }
+    #tituloE { font-size: 40px; }
+    #imagem, video {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul { font-size: 32px; }
+    .lista { font-size: 24px; }
+}
+
+@media (max-width: 900px) {
+    #tituloP { font-size: 40px; }
+    #tituloE { font-size: 30px; }
+    #imagem, video {
+        width: 70%;
+        height: auto;
+    }
+    ul { font-size: 28px; margin-left: 30px; }
+    .lista { font-size: 20px; }
+    #caixa1 { width: 90%; height: 380px; }
+}
+
+@media (max-width: 750px) {
+    #tituloP { font-size: 30px; }
+    #tituloE { font-size: 25px; }
+    #imagem, video {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul { font-size: 10px; margin-left: 20px; }
+    .lista { font-size: 18px; }
+    #volta { font-size: 25px; }
+    #caixa1 { height: 320px; }
+}
+
+@media (max-width: 400px) {
+    #tituloP { font-size: 24px; }
+    #tituloE { font-size: 20px; }
+    #imagem, video {
+        width: 95%;
+    }
+    ul { font-size: 10px; margin-left: 15px; }
+    .lista { font-size: 16px; }
+    #volta { font-size: 20px; }
+    #caixa1 { height: 280px; border-width: 4px; }
+}
