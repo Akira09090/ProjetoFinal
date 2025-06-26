@@ -74,6 +74,21 @@ video{
     margin-top: 25px;
 }
 
+#hr1{
+    border: 2px solid rgb(95, 48, 28);
+    margin-top: 100px;
+}
+
+#logo2{
+    margin-left: 80px;
+}
+
+#logo1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
 #cxPrincipal{
     width: 100%;
     display: flex;
